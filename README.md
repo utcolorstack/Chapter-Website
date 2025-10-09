@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# ColorStack UT Austin Website
 
-First, run the development server:
+Professional, modern, welcoming site for the ColorStack chapter at The University of Texas at Austin.
+
+</div>
+
+## Tech Stack
+
+- Next.js 15 (App Router)
+- React 19 + TypeScript 5
+- Tailwind CSS 4
+- shadcn-style UI primitives
+- ESLint 9
+
+## Quick Start
+
+Prereqs: Node 18+ and npm.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# visit http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build and run production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+- `app/` – routes, layout, and global styles
+- `components/` – UI primitives and page sections
+- `public/` – static assets (images, icons, sponsor logos)
+- `.github/` – issue/PR templates and repo metadata
 
-To learn more about Next.js, take a look at the following resources:
+## Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `npm run dev` – start dev server
+- `npm run build` – build for production
+- `npm start` – start production server
+- `npm run lint` – run eslint
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+We welcome contributions from ColorStack members and the community! Please read:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- CONTRIBUTING.md – workflow, branching, commit style, PR checklist
+- CODE_OF_CONDUCT.md – expected behavior
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+High-level flow:
+
+1. Fork this repo and clone your fork
+2. Create a feature branch (`feat/awesome-thing`)
+3. Develop locally, run `npm run lint`
+4. Push to your fork and open a Pull Request
+5. A maintainer will review and merge via squash when approved
+
+Good first issues are labeled `good first issue`. See the Issue Tracker for open work.
+
+## Design & Theming
+
+- Primary accent: UT Austin burnt orange `#BF5700`
+- Components follow shadcn patterns with Tailwind
+
+## Community & Links
+
+- Instagram: add link
+- LinkedIn: add link
+- Public Google Calendar: add link
+
+## Code of Conduct
+
+By participating, you agree to abide by our CODE_OF_CONDUCT.md.
+
+## License
+
+MIT © 2025 ColorStack UT Austin
+
