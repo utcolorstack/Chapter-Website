@@ -49,8 +49,8 @@ npm start
 
 We welcome contributions from ColorStack members and the community! Please read:
 
-- CONTRIBUTING.md – workflow, branching, commit style, PR checklist
-- CODE_OF_CONDUCT.md – expected behavior
+- .github/CONTRIBUTING.md – workflow, branching, commit style, PR checklist
+- /github/CODE_OF_CONDUCT.md – expected behavior
 
 High-level flow:
 
