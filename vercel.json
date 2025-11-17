@@ -1,9 +1,7 @@
 {
-  "trailingSlash": false,
-  "cleanUrls": true,
   "headers": [
     {
-      "source": "/public/(.*)",
+      "source": "/public/(.*\\.(css|js|jpg|jpeg|png|gif|svg|ico|webp))",
       "headers": [
         {
           "key": "Cache-Control",
