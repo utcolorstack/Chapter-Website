@@ -41,9 +41,11 @@ npx http-server -p 8000
 ## Project Structure
 
 - `index.html` – main website file with all content
-- `styles.css` – all styling and responsive design
-- `script.js` – interactive features (smooth scroll, active nav)
-- `public/` – static assets (images, icons, sponsor logos)
+- `public/` – all static assets:
+  - `styles.css` – all styling and responsive design
+  - `script.js` – interactive features (smooth scroll, active nav)
+  - `images/` – images, icons, and sponsor logos
+- `vercel.json` – Vercel deployment configuration
 - `.github/` – issue/PR templates and repo metadata (if present)
 
 ## Contributing
