@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorStack UT Austin</title>
+    <meta name="description" content="A welcoming community for Black and Latinx Computer Science students at The University of Texas at Austin.">
+    <link rel="icon" href="public/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container navbar-content">
+            <a href="#" class="logo">
+                <img src="public/logo.png" alt="ColorStack UT Austin logo" width="28" height="28">
+                <span>ColorStack <span class="text-primary">UT Austin</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#events" class="nav-link">Events</a>
+                <a href="#team" class="nav-link">Our Team</a>
+                <a href="#sponsors" class="nav-link">Sponsors</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#newsletter" class="btn btn-ghost nav-join-btn">Join</a>
+                <a href="#sponsors" class="btn btn-primary">Sponsor Us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-wrapper">
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="container hero-grid">
+                    <div class="hero-text">
+                        <div class="badge badge-primary">
+                            Built by ColorStack UT students — actively in progress
+                            <span class="status-indicator">
+                                <span class="ping"></span>
+                                <span class="dot"></span>
+                            </span>
+                        </div>
+                        <h1 class="hero-title">
+                            ColorStack @ <span class="text-primary">UT Austin</span>
+                        </h1>
+                        <p class="hero-description">
+                            A community for Black and Latinx Computer Science students at The University of Texas at Austin. We host events, socials, and industry connections to help you thrive.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#newsletter" class="btn btn-primary btn-lg">Join the Chapter</a>
+                            <a href="#sponsors" class="btn btn-secondary btn-lg">Sponsor Us</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="public/Hero.jpg" alt="Students collaborating at UT Austin">
+                    </div>
+                </div>
+                <div class="hero-gradient"></div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">About Us</h2>
+                    </div>
+                    <div class="about-grid">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-header-content">
+                                    <div class="icon-wrapper">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="card-title">Professional Development</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                    We connect members with workshops, mentorship, and career opportunities to help them grow into the professional they aspire to be.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-header-content">
+                                    <div class="icon-wrapper">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="m3 11 18-5v12L3 14v-3z"></path>
+                                            <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="card-title">Representation</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                    We amplify the voices of minority students in tech, ensuring every member feels seen, valued, and empowered to lead.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-header-content">
+                                    <div class="icon-wrapper">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <rect width="16" height="16" x="4" y="4" rx="2"></rect>
+                                            <rect width="6" height="6" x="9" y="9" rx="1"></rect>
+                                            <path d="M15 2v2"></path>
+                                            <path d="M15 20v2"></path>
+                                            <path d="M2 15h2"></path>
+                                            <path d="M2 9h2"></path>
+                                            <path d="M20 15h2"></path>
+                                            <path d="M20 9h2"></path>
+                                            <path d="M9 2v2"></path>
+                                            <path d="M9 20v2"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="card-title">Technical Advancement</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                    We provide hands-on learning, collaborative projects, and peer support to strengthen our members' technical and soft skills.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-header-content">
+                                    <div class="icon-wrapper">
+                                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="9" cy="7" r="4"></circle>
+                                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                        </svg>
+                                    </div>
+                                    <h3 class="card-title">Community Engagement</h3>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">
+                                    We bring members together through technical talks, company meetups, and collaborative events. Our community also fosters peer-to-peer support and study groups that help us grow and build lasting connections.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sponsors Section -->
+            <section id="sponsors" class="section">
+                <div class="container">
+                    <div class="sponsors-header">
+                        <h2 class="section-title">Proudly supported by</h2>
+                        <a href="#newsletter" class="sponsor-link">Become a sponsor</a>
+                    </div>
+                    <div class="sponsors-grid">
+                        <div class="sponsor-card">
+                            <img src="public/logos/accenture.png" alt="Accenture">
+                        </div>
+                        <div class="sponsor-card">
+                            <img src="public/logos/amazon.png" alt="Amazon">
+                        </div>
+                        <div class="sponsor-card">
+                            <img src="public/logos/jp-morgan.png" alt="J.P. Morgan">
+                        </div>
+                        <div class="sponsor-card">
+                            <img src="public/logos/paycom.png" alt="Paycom">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Events Section -->
+            <section id="events" class="section">
+                <div class="container">
+                    <h2 class="section-title section-header">Events</h2>
+                    <div class="events-grid">
+                        <div class="card event-card">
+                            <div class="card-header event-header">
+                                <h3 class="card-title event-title">Kickoff + Meet & Greet</h3>
+                                <span class="badge badge-secondary">Sept 12, 2025</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">Gates Dell Complex</p>
+                            </div>
+                        </div>
+
+                        <div class="card event-card">
+                            <div class="card-header event-header">
+                                <h3 class="card-title event-title">Tech Interview Prep Night</h3>
+                                <span class="badge badge-secondary">Oct 3, 2025</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">Virtual</p>
+                            </div>
+                        </div>
+
+                        <div class="card event-card">
+                            <div class="card-header event-header">
+                                <h3 class="card-title event-title">Sponsor Spotlight: TBD</h3>
+                                <span class="badge badge-secondary">Oct 24, 2025</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="card-text">On Campus</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Executive Board Section -->
+            <section id="team" class="section">
+                <div class="container">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <h2 class="card-title">Executive Board</h2>
+                        </div>
+                        <div class="card-content">
+                            <ul class="team-grid">
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Aaron Johnson</p>
+                                        <p class="member-role">President</p>
+                                    </div>
+                                </li>
+
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Mezmure Dawit</p>
+                                        <p class="member-role">Vice President</p>
+                                    </div>
+                                </li>
+
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Kenna Nyuga</p>
+                                        <p class="member-role">Secretary</p>
+                                    </div>
+                                </li>
+
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Nicholas McGinty</p>
+                                        <p class="member-role">Treasurer</p>
+                                    </div>
+                                </li>
+
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Sergio Martinez</p>
+                                        <p class="member-role">Academic Chair</p>
+                                    </div>
+                                </li>
+
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Angel Enriquez</p>
+                                        <p class="member-role">Operations Chair</p>
+                                    </div>
+                                </li>
+
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Stacy Oduro</p>
+                                        <p class="member-role">Professional Development Chair</p>
+                                    </div>
+                                </li>
+
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Jesus Pequeno</p>
+                                        <p class="member-role">Events Chair</p>
+                                    </div>
+                                </li>
+
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Alaina Gomez</p>
+                                        <p class="member-role">Communications Director</p>
+                                    </div>
+                                </li>
+
+                                <li class="team-member">
+                                    <div class="avatar">
+                                        <svg class="avatar-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="member-info">
+                                        <p class="member-name">Kenta Fukuchi</p>
+                                        <p class="member-role">Communications Director</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter Section -->
+            <section id="newsletter" class="section">
+                <div class="container">
+                    <div class="card newsletter-card">
+                        <div class="card-content newsletter-content">
+                            <div class="newsletter-text">
+                                <h3 class="newsletter-title">Stay connected</h3>
+                                <p class="newsletter-description">
+                                    Follow for event drops, career opportunities, and community highlights.
+                                </p>
+                            </div>
+                            <div class="newsletter-buttons">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-social">
+                                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                                    </svg>
+                                    Instagram
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg btn-social">
+                                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                    LinkedIn
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg btn-social">
+                                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path d="M8 2v4"></path>
+                                        <path d="M16 2v4"></path>
+                                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                        <path d="M3 10h18"></path>
+                                    </svg>
+                                    Add our Google Calendar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container footer-content">
+                <p class="footer-copyright">
+                    © <span id="year"></span> ColorStack UT Austin. All rights reserved.
+                </p>
+                <nav class="footer-nav">
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#events" class="footer-link">Events</a>
+                    <a href="#team" class="footer-link">Team</a>
+                    <a href="#sponsors" class="footer-link">Sponsors</a>
+                    <a href="#" class="footer-link" aria-label="Instagram">Instagram</a>
+                    <a href="#" class="footer-link" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" class="footer-link" aria-label="Google Calendar">Calendar</a>
+                </nav>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

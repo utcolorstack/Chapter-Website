@@ -8,42 +8,43 @@ Professional, modern, welcoming site for the ColorStack chapter at The Universit
 
 ## Tech Stack
 
-- Next.js 15 (App Router)
-- React 19 + TypeScript 5
-- Tailwind CSS 4
-- shadcn-style UI primitives
-- ESLint 9
+- Vanilla HTML5
+- CSS3 (with custom properties for theming)
+- Vanilla JavaScript (ES6+)
+- No build tools or frameworks required!
 
 ## Quick Start
 
-Prereqs: Node 18+ and npm.
+No installation needed! This is a simple static website.
 
+### Option 1: VS Code Live Server (Recommended)
+1. Install the **Live Server** extension in VS Code
+2. Right-click on `index.html`
+3. Select **"Open with Live Server"**
+4. Visit `http://127.0.0.1:5500` (or the URL shown)
+
+### Option 2: Direct File Opening
+Simply double-click `index.html` to open it in your browser.
+
+### Option 3: Python Simple Server
 ```bash
-npm install
-npm run dev
-# visit http://localhost:3000
+python -m http.server 8000
+# visit http://localhost:8000
 ```
 
-Build and run production:
-
+### Option 4: Node.js http-server
 ```bash
-npm run build
-npm start
+npx http-server -p 8000
+# visit http://localhost:8000
 ```
 
 ## Project Structure
 
-- `app/` – routes, layout, and global styles
-- `components/` – UI primitives and page sections
+- `index.html` – main website file with all content
+- `styles.css` – all styling and responsive design
+- `script.js` – interactive features (smooth scroll, active nav)
 - `public/` – static assets (images, icons, sponsor logos)
-- `.github/` – issue/PR templates and repo metadata
-
-## Scripts
-
-- `npm run dev` – start dev server
-- `npm run build` – build for production
-- `npm start` – start production server
-- `npm run lint` – run eslint
+- `.github/` – issue/PR templates and repo metadata (if present)
 
 ## Contributing
 
@@ -56,7 +57,7 @@ High-level flow:
 
 1. Fork this repo and clone your fork
 2. Create a feature branch (`feat/awesome-thing`)
-3. Develop locally, run `npm run lint`
+3. Develop locally and test in your browser
 4. Push to your fork and open a Pull Request
 5. A maintainer will review and merge via squash when approved
 
@@ -65,7 +66,9 @@ Good first issues are labeled `good first issue`. See the Issue Tracker for open
 ## Design & Theming
 
 - Primary accent: UT Austin burnt orange `#BF5700`
-- Components follow shadcn patterns with Tailwind
+- CSS custom properties for easy theme customization
+- Fully responsive design (mobile-first approach)
+- Modern, clean UI with smooth animations
 
 ## Community & Links
 
